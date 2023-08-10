@@ -32,3 +32,11 @@
     background-color: rgb(50,50,50);
     color: white;
  }
+
+ @media screen and (max-width: 768px) {
+   button {
+     display: block; /* Make the button a block element */
+     margin: 0 auto; /* Center the button horizontally */
+   }
+ }
+ 
